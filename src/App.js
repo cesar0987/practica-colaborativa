@@ -1,14 +1,13 @@
-import './App.css';
-import Navbar from './header';
-import Hero from './hero';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <h1>React App</h1>
+      <header className="App-header">
+        <p>React App</p>
+      </header>
       <body>
-        <Hero />
-        <h1>This Footer is ugly</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
