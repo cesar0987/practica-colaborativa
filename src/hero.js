@@ -12,8 +12,7 @@ const Hero = () => {
     justifyContent: 'center',
     alignItems: 'center',
     color: 'white',
-    textAlign: 'center',
-    padding: '0 20px'
+    textAlign: 'center'
   };
 
   const overlayStyle = {
@@ -22,7 +21,8 @@ const Hero = () => {
     height: '100%',
     alignItems: 'center',
     display: 'flex',
-    justifyContent: 'center'
+    justifyContent: 'center',
+    padding: '0 20px'
   };
 
   const contentStyle = {
