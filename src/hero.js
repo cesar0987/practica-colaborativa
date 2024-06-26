@@ -16,6 +16,15 @@ const Hero = () => {
     padding: '0 20px'
   };
 
+  const overlayStyle = {
+    backgroundColor: 'rgba(0, 0, 0, 0.2)',
+    width: '100%',
+    height: '100%',
+    alignItems: 'center',
+    display: 'flex',
+    justifyContent: 'center'
+  };
+
   const contentStyle = {
     position: 'relative',
     zIndex: 2
@@ -46,12 +55,14 @@ const Hero = () => {
 
   return (
     <div style={heroStyle}>
-      <div style={contentStyle}>
-        <h1 style={titleStyle}>Welcome to My Website</h1>
-        <p style={subtitleStyle}>
-          Discover amazing content and join our community
-        </p>
-        <button style={buttonStyle}>Get Started</button>
+      <div style={overlayStyle}>
+        <div style={contentStyle}>
+          <h1 style={titleStyle}>Welcome to My Website</h1>
+          <p style={subtitleStyle}>
+            Discover amazing content and join our community
+          </p>
+          <button style={buttonStyle}>Get Started</button>
+        </div>
       </div>
     </div>
   );
